@@ -5,7 +5,7 @@ author: Charts Team <charts_flutter@google.com>
 homepage: https://github.com/google/charts
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.14.0 <3.0.0'
 
 dependencies:
   # Pointing this to a local path allows for pointing to the latest code
@@ -14,13 +14,13 @@ dependencies:
   # The pub version of charts_flutter will point to the pub version of charts_common.
   # The latest pub version is commented out and shown below as an example.
   # charts_common: 0.11.0
-  #charts_common:
-  #  path: ../charts_common/
   charts_common:
-    git:
-      url: https://github.com/CristobalPenaloza/charts.git
-      ref: '4aa88eb80d8176286cbd12517a7b5b1f7b66e4e8' #caps
-      path: charts_common
+    path: ../charts_common/
+  #charts_common:
+  #  git:
+  #    url: https://github.com/CristobalPenaloza/charts.git
+  #    ref: '4aa88eb80d8176286cbd12517a7b5b1f7b66e4e8' #caps
+  #    path: charts_common
   collection: ^1.14.5
   flutter:
     sdk: flutter
